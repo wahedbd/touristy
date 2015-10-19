@@ -1,0 +1,264 @@
+/* CSS Document */
+@charset "utf-8";
+body {
+	background-color: #B0C4DE; /* #99CC66; */
+	font-size: 90%;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1;
+	text-align: left;
+	width: 70%;
+	clear: both;
+} 
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    color: #20B2AA;
+}
+
+.body {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.logo {
+	width: 99.7%;
+	height: auto;
+	background-color: #9EB0C8;
+	margin: 0.2% 0 0.2% 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+}
+
+.logo img {
+	width: 20%; 
+	height: auto;
+	margin: 0.2% 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#navMenu {
+	margin: 0;
+	padding: 0;
+}
+
+#navMenu ul {
+	margin: 0;
+	padding: 0;
+	line-height: 32px;
+}
+
+#navMenu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #20B2AA; /* #3CB371; */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#navMenu ul li a {
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 186.5px;
+	display: block;
+	color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#navMenu ul ul{
+position: absolute;
+visibility: hidden;
+}
+
+#navMenu ul li:hover ul {
+	visibility: visible;
+}
+
+#navMenu ul li a:hover {
+	background-color: #2E8B57; 
+	color: black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.clearFloat {
+	clear: both;
+}
+
+.mainContent {
+	line-height: 25px; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+	margin-top: 0%;
+	margin-bottom: 0.2%;
+}
+
+.content_slider {
+	width: 100%;
+	margin-top: 0.4%;
+	position: relative;
+	z-index: -1;
+	margin-bottom: 0.4%;
+}
+
+#slider {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin: 0% auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#slider > img {
+	width: 100%;
+	height: 400px;
+	float: left;
+	display: none;
+}
+
+/* a.left{
+	padding: 5px 10px;
+	margin-top: -25px;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+a.right{
+	padding: 5px 10px;
+	margin-top: -25px;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+a.left {
+	float: left;
+}
+
+a.right {
+	float: right;
+}
+.wrapper a.left:hover {
+	background-color: #2E8B57;
+	color: black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	visibility: visible;
+}
+
+.wrapper a.right:hover {
+	background-color: #2E8B57;
+	color: black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	visibility: visible;
+} */
+
+.bottomContent {
+	background-color: #E6E6FA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 0.4%;
+	margin-bottom: 0.2%;
+}
+
+.topSidebar img{
+	width: 21%;
+	height: 115px;
+	float: left;
+	background-color: #5F9EA0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0.2% 0 0.2% 2.7%;
+	padding: 2% 3%;
+	
+}
+
+.middleSidebar {
+	width: 21%;
+	float: left;
+	background-color: #E6E6FA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0.2% 0 0.2% 2.7%;
+	padding: 2% 3%;
+	line-height: 25px; 
+}
+
+.bottomSidebar {
+	width: 21%;
+	float: left;
+	background-color: #E6E6FA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0.2% 0 0.2% 2.7%;
+	padding: 2% 3%;
+	line-height: 25px; 
+}
+
+footer {
+	
+}
+.mainFooter {
+	width: 100%;
+	float: left;
+	background-color: #20B2AA;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 0.2%;
+	margin-bottom: 0.4%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.mainFooter p {
+	text-align: center;
+}
+
+.clearFloat {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
